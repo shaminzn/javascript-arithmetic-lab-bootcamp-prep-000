@@ -29,11 +29,8 @@ function increment(n) {
   return n += 1;
 }
 
-
 //Decrement
 function decrement(n) {
   return n -= 1;
 }
-
-
-//
+//ParseInt
