@@ -22,32 +22,16 @@ function divide(a, b) {
 }
 
 divide(5.0, 2.5);
-///////////////////////////////////
-var number = 10
+//Increment
+function increment() {
 
-function add5() {
-  return number += 5
 }
 
-function divideBy3() {
-  return number /= 3
+increment();
+//Decrement
+function decrement() {
+
 }
 
-divideBy3()
-
-console.log(number) // 3.333333333335
-
-add5()
-
-console.log(number) // 8.333333333335
-
-// reset number
-number = 10
-
-add5()
-
-console.log(number) // 15
-
-divideBy3()
-
-console.log(number) // 5
+decrement();
+//
