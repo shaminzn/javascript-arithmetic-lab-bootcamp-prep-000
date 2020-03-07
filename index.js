@@ -23,17 +23,17 @@ function divide(a, b) {
 
 divide(5.0, 2.5);
 
-var n = 50;
+var n = 10;
 //Increment
-function increment(n) {
+function increment() {
   return n += 2;
 }
 
-increment(10);
+increment();
 //Decrement
-function decrement(n) {
+function decrement() {
   return n -= 5;
 }
 
-decrement(15);
+decrement();
 //
