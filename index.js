@@ -27,11 +27,11 @@ function increment(n) {
   return n += ;
 }
 
-increment(10);
+increment();
 //Decrement
 function decrement(n) {
   return n -= ;
 }
 
-decrement(6);
+decrement();
 //
