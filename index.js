@@ -1,20 +1,27 @@
+//Addition
 function add(a, b) {
   return a + b;
 }
 
 add(1, 80);
-
-function subtract() {
-  return 60 - 40;
+//Subtraction
+function subtract(a, b) {
+  return a - b;
 }
 
-function multiply() {
-  return 2 * 3.4;
+subtract(60, 40);
+//Multiplication
+function multiply(a, b) {
+  return a * b;
 }
 
-function divide() {
-  return 5.0 / 2.5;
+multiply(2, 3.4);
+//Division
+function divide(a, b) {
+  return a / b;
 }
+
+divide(5.0, 2.5);
 //////////////////////////
 var number = 10
 
