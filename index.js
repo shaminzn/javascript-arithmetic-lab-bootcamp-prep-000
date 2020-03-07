@@ -25,22 +25,15 @@ divide(5.0, 2.5);
 
 var n = 10;
 //Increment
-function increment() {
+function increment(n) {
   return n += 9;
 }
 
 increment();
 //Decrement
-function decrement() {
+function decrement(n) {
   return n -= 4;
 }
 
 decrement();
 //
-
-n = 10;
-increment();
-console.log(n);
-
-decrement();
-console.log(n);
