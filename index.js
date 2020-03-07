@@ -22,8 +22,6 @@ function divide(a, b) {
 }
 
 divide(5.0, 2.5);
-
-var n = 10;
 //Increment
 function increment(n) {
   return n += 9;
