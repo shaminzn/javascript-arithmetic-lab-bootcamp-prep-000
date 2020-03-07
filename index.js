@@ -37,3 +37,10 @@ function decrement() {
 
 decrement();
 //
+
+n = 10;
+increment();
+console.log(n);
+
+decrement();
+console.log(n);
