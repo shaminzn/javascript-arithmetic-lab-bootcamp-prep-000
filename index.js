@@ -26,13 +26,13 @@ divide(5.0, 2.5);
 var n = 10;
 //Increment
 function increment() {
-  return n += 2;
+  return n += 9;
 }
 
 increment();
 //Decrement
 function decrement() {
-  return n -= 5;
+  return n -= 4;
 }
 
 decrement();
