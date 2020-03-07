@@ -23,6 +23,7 @@ function divide(a, b) {
 
 divide(5.0, 2.5);
 //Increment
+var n = 10;
 function increment(n) {
   return n += 5
 }
