@@ -23,15 +23,15 @@ function divide(a, b) {
 
 divide(5.0, 2.5);
 //Increment
-function increment() {
-
+function increment(number) {
+  return number += 5;
 }
 
-increment();
+increment(10);
 //Decrement
-function decrement() {
-
+function decrement(number) {
+  return number -= 5;
 }
 
-decrement();
+decrement(15);
 //
