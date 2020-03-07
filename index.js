@@ -24,14 +24,14 @@ function divide(a, b) {
 divide(5.0, 2.5);
 //Increment
 function increment(n) {
-  return 10 += 2;
+  return n += 2;
 }
 
-increment(n);
+increment(10);
 //Decrement
 function decrement(n) {
-  return 15 -= 5;
+  return n -= 5;
 }
 
-decrement(n);
+decrement(15);
 //
